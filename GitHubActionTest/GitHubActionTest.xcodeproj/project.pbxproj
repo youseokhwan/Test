@@ -150,6 +150,7 @@
 					};
 					442DE1A528DE13B300E69707 = {
 						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 442DE18A28DE131F00E69707;
 					};
 				};
 			};
@@ -422,6 +423,7 @@
 		442DE1AD28DE13B300E69707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37CRZBHS68;
@@ -438,12 +440,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubActionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubActionTest";
 			};
 			name = Debug;
 		};
 		442DE1AE28DE13B300E69707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37CRZBHS68;
@@ -460,6 +464,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubActionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubActionTest";
 			};
 			name = Release;
 		};
