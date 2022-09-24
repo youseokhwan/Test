@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run tests
-      run: xcodebuild test-without-building -project GitHubActionTest/GitHubActionTest.xcodeproj -scheme GitHubActionTestTests -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 13 Pro'
+      run: xcodebuild test-without-building -project GitHubActionTest/GitHubActionTest.xcodeproj -scheme GitHubActionTest -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 13 Pro'
         
