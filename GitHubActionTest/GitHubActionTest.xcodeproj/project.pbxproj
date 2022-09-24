@@ -14,6 +14,7 @@
 		442DE19828DE132400E69707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442DE19728DE132400E69707 /* Assets.xcassets */; };
 		442DE19B28DE132400E69707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442DE19928DE132400E69707 /* LaunchScreen.storyboard */; };
 		442DE1A928DE13B300E69707 /* GitHubActionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DE1A828DE13B300E69707 /* GitHubActionTestTests.swift */; };
+		442DE1AF28DF501800E69707 /* GitHubActionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DE1A828DE13B300E69707 /* GitHubActionTestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +201,7 @@
 			files = (
 				442DE19328DE131F00E69707 /* ViewController.swift in Sources */,
 				442DE18F28DE131F00E69707 /* AppDelegate.swift in Sources */,
+				442DE1AF28DF501800E69707 /* GitHubActionTestTests.swift in Sources */,
 				442DE19128DE131F00E69707 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
