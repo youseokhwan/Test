@@ -14,7 +14,6 @@
 		442DE19828DE132400E69707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442DE19728DE132400E69707 /* Assets.xcassets */; };
 		442DE19B28DE132400E69707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442DE19928DE132400E69707 /* LaunchScreen.storyboard */; };
 		442DE1A928DE13B300E69707 /* GitHubActionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DE1A828DE13B300E69707 /* GitHubActionTestTests.swift */; };
-		442DE1AF28DF501800E69707 /* GitHubActionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DE1A828DE13B300E69707 /* GitHubActionTestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,7 +150,6 @@
 					};
 					442DE1A528DE13B300E69707 = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 442DE18A28DE131F00E69707;
 					};
 				};
 			};
@@ -201,7 +199,6 @@
 			files = (
 				442DE19328DE131F00E69707 /* ViewController.swift in Sources */,
 				442DE18F28DE131F00E69707 /* AppDelegate.swift in Sources */,
-				442DE1AF28DF501800E69707 /* GitHubActionTestTests.swift in Sources */,
 				442DE19128DE131F00E69707 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +422,6 @@
 		442DE1AD28DE13B300E69707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37CRZBHS68;
@@ -442,14 +438,12 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubActionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubActionTest";
 			};
 			name = Debug;
 		};
 		442DE1AE28DE13B300E69707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37CRZBHS68;
@@ -466,7 +460,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHubActionTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitHubActionTest";
 			};
 			name = Release;
 		};
