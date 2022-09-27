@@ -8,22 +8,15 @@
 import XCTest
 
 final class GitHubActionTestTests: XCTestCase {
-    var label: UILabel!
-
     override func setUpWithError() throws {
-        label = UILabel()
+
     }
 
     override func tearDownWithError() throws {
-        label = nil
+
     }
 
     func testExample() throws {
         XCTAssert(true)
-    }
-
-    func test_label() throws {
-        label.text = "hello"
-        XCTAssertEqual(label.text, "hello")
     }
 }
